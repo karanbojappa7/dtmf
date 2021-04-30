@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dimond Tree Music</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr&display=swap" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/e94d846b38.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!--   bootstrap CDN,s  -->
+    <!--   google fonts  -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <!--    files   -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="scripts/pace.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+
+    <link rel="stylesheet" href="style_sheets/style.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- ..start..   -->
+
+    <div id="preloader">
+
+        <section class="fullblock">
+            <div class="container">
+                <div class="player con">
+                    <div id="button"></div>
+                    <div class="eye"></div>
+                    <svg class="disc" width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+
+
+                        <g id="Page-1 dvd" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                            <g id="Group" sketch:type="MSLayerGroup" transform="translate(75.000000, 75.000000) scale(1, -1) translate(-75.000000, -75.000000) ">
+                                <path d="M75,150 C116.421356,150 150,116.421356 150,75 C150,33.5786438 116.421356,0 75,0 C33.5786438,0 0,33.5786438 0,75 C0,116.421356 33.5786438,150 75,150 Z" id="Oval-1" fill="#312F2D" sketch:type="MSShapeGroup"></path>
+                                <path d="M27.7421875,75 C27.7421875,101.017578 51.7402344,122.183594 75,122.183594" id="Path-1" stroke="#5A5A5A" stroke-width="3" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+                                <path d="M75,38.1484375 C75,58.4688144 93.4978363,75 111.426601,75" id="Path-1-Copy-3" stroke="#5A5A5A" stroke-width="3" stroke-linecap="round" sketch:type="MSShapeGroup" transform="translate(93.213301, 56.574219) scale(-1, -1) translate(-93.213301, -56.574219) "></path>
+                                <path d="M38.0904708,75 C38.0904708,95.3203769 56.8335434,111.851562 75,111.851562" id="Path-1-Copy" stroke="#5A5A5A" stroke-width="3" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+                                <path d="M75,27.8164062 C75,53.8339844 98.9980469,75 122.257812,75" id="Path-1-Copy-4" stroke="#5A5A5A" stroke-width="3" stroke-linecap="round" sketch:type="MSShapeGroup" transform="translate(98.628906, 51.408203) scale(-1, -1) translate(-98.628906, -51.408203) "></path>
+                            </g>
+                        </g>
+                    </svg>
+                    <div class="stylus-base"></div>
+                    <div class="stylus"></div>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+
+
+    <nav class="navbar navbar-expand-md  fixed-top  navbar-dark">
+        <!--        <a class="navbar-brand" href="#">Dimond Tree Music</a>-->
+        <div class="navbar-brand col-sm-3">
+            <img src="style_sheets/pictures/logo.png" width="18%">
+        </div>
+
+        <div class="col-1 offset-10 d-block d-sm-none navtogler">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <div class="col-3 offset-md-2 offset-lg-4 offset-xl-5">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <div class="nav-link" id="link1">Home</div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-link" id="link2">About</div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-link" id="link3">Partners</div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-link" id="link4">Blog</div>
+                    </li>
+                    <li class="nav-item d-none d-xl-block">
+                        <div class="nav-link" id="link5">Contact</div>
+                    </li>
+                    <li class="nav-item d-xl-none">
+                        <div class="nav-link" id="link6">Contact</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section id="section1">
+
+
+        <div class="col-sm-12 text-center top">
+            <!--            <div class="dtm fon2 mx-auto">Dimond Tree Musics Factory</div>-->
+
+            <svg id="logo" width="" height="100" viewBox="0 0 1158 154" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <mask id="path-1-outside-1" maskUnits="userSpaceOnUse" x="0.896851" y="0.799988" width="1157" height="154" fill="">
+                    <rect fill="white" x="0.896851" y="0.799988" width="1157" height="154" />
+                    <path d="M1.89685 1.79999H32.6169V12.648H13.9928V45.768H32.6169V57H1.89685V1.79999ZM68.0408 8.42399L57.1929 1.79999H37.3208V12.648H55.9449V45.768H37.3208V57H57.1929L68.0408 50.472V8.42399Z" />
+                    <path d="M83.4144 1.79999H95.5103V57H83.4144V1.79999Z" />
+                    <path d="M112.803 1.79999H123.747L143.523 20.424V34.92L124.899 17.352V57H112.803V1.79999ZM178.947 1.79999H168.099L148.227 20.424V34.92L166.851 17.352V57H178.947V1.79999Z" />
+                    <path d="M196.196 8.42399L207.428 1.79999H227.3V12.648H208.292V45.768H226.916V57H207.428L196.196 50.472V8.42399ZM262.34 8.42399L251.492 1.79999H231.62V12.648H250.244V45.768H231.62V57H251.492L262.34 50.472V8.42399Z" />
+                    <path d="M279.584 1.79999H290.528L310.304 20.424V34.92L291.68 16.968V57H279.584V1.79999ZM333.632 41.448V1.79999H345.728V57H334.4L314.624 37.992V23.976L333.632 41.448Z" />
+                    <path d="M364.897 1.79999H395.617V12.648H376.993V45.768H395.617V57H364.897V1.79999ZM431.041 8.42399L420.193 1.79999H400.321V12.648H418.945V45.768H400.321V57H420.193L431.041 50.472V8.42399Z" />
+                    <path d="M536.54 12.648H508.892V57H495.644V12.648H470.396V1.79999H536.54V12.648Z" />
+                    <path d="M549.022 1.79999H579.742V13.128H561.118V23.976H579.742V35.208H561.118V57H549.022V1.79999ZM615.166 57V34.152L606.142 29.448L615.166 25.128V8.42399L603.838 1.79999H584.062V13.128H603.07V23.976H584.062V35.208H603.07V57H615.166Z" />
+                    <path d="M631.522 1.79999H662.242V13.128H643.618V23.976H662.242V34.92H643.618V46.152H661.858V57H631.522V1.79999ZM666.946 46.152V57H697.666V46.152H666.946ZM697.666 13.128V1.79999H666.562V13.128H697.666ZM682.114 34.92V23.976H666.562V34.92H682.114Z" />
+                    <path d="M710.178 1.79999H740.898V13.128H722.274V23.976H740.898V34.92H722.274V46.152H740.514V57H710.178V1.79999ZM745.602 46.152V57H776.322V46.152H745.602ZM776.322 13.128V1.79999H745.218V13.128H776.322ZM760.77 34.92V23.976H745.218V34.92H760.77Z" />
+                    <path d="M817.616 1.79999H828.56L848.336 20.424V34.92L829.712 17.352V57H817.616V1.79999ZM883.76 1.79999H872.912L853.04 20.424V34.92L871.664 17.352V57H883.76V1.79999Z" />
+                    <path d="M901.008 1.79999H913.104V45.768H931.728V57H911.952L901.008 50.472V1.79999ZM967.152 1.79999H955.056V45.768H936.432V57H956.304L967.152 50.472V1.79999Z" />
+                    <path d="M981.517 8.42399L992.461 1.79999H1012.24V13.128H993.229V23.976H1012.24V35.208H992.461L981.517 28.68V8.42399ZM1047.66 30.6L1036.33 23.976H1016.56V35.208H1035.56V46.152H1016.94V57H1036.33L1047.66 50.472V30.6ZM993.613 39.528V46.152H1012.24V57H992.749L981.517 50.472V39.528H993.613ZM1047.66 19.656V8.42399L1036.33 1.79999H1016.56V13.128H1035.56V19.656H1047.66Z" />
+                    <path d="M1062.07 1.79999H1074.17V57H1062.07V1.79999Z" />
+                    <path d="M1089.54 8.42399L1100.77 1.79999H1120.64V12.648H1102.02V45.768H1120.26V57H1100.77L1089.54 50.472V8.42399ZM1143.59 39.144V45.768H1125.35V57H1144.84L1156.07 50.472V39.144H1143.59ZM1156.07 19.368V8.42399L1144.84 1.79999H1124.96V12.648H1143.59V19.368H1156.07Z" />
+                    <path d="M318.584 97.8H349.304V109.128H330.68V119.976H349.304V131.208H330.68V153H318.584V97.8ZM384.728 109.128V97.8H354.008V109.128H384.728ZM369.56 131.208V119.976H354.008V131.208H369.56Z" />
+                    <path d="M393.352 104.424L404.296 97.8H424.072V108.648H405.448V119.976H424.072V130.92H405.448V153H393.352V104.424ZM459.496 104.424L448.168 97.8H428.392V108.648H447.4V119.976H428.392V130.92H447.4V153H459.496V104.424Z" />
+                    <path d="M468.914 104.424L480.146 97.8H500.018V108.648H481.394V141.768H499.634V153H480.146L468.914 146.472V104.424ZM522.962 135.144V141.768H504.722V153H524.21L535.442 146.472V135.144H522.962ZM535.442 115.368V104.424L524.21 97.8H504.338V108.648H522.962V115.368H535.442Z" />
+                    <path d="M612.102 108.648H584.454V153H571.206V108.648H545.958V97.8H612.102V108.648Z" />
+                    <path d="M621.539 104.424L632.771 97.8H652.643V108.648H633.635V141.768H652.259V153H632.771L621.539 146.472V104.424ZM687.683 104.424L676.835 97.8H656.963V108.648H675.587V141.768H656.963V153H676.835L687.683 146.472V104.424Z" />
+                    <path d="M704.928 97.8H735.648V109.128H717.024V119.976H735.648V131.208H717.024V153H704.928V97.8ZM771.072 153V130.152L762.048 125.448L771.072 121.128V104.424L759.744 97.8H739.968V109.128H758.976V119.976H739.968V131.208H758.976V153H771.072Z" />
+                    <path d="M816.485 127.752V153H805.637V127.752L777.989 101.352L788.933 97.8L811.013 118.824L833.285 97.8L844.133 101.352L816.485 127.752Z" />
+                </mask>
+                <path d="M1.89685 1.79999H32.6169V12.648H13.9928V45.768H32.6169V57H1.89685V1.79999ZM68.0408 8.42399L57.1929 1.79999H37.3208V12.648H55.9449V45.768H37.3208V57H57.1929L68.0408 50.472V8.42399Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+                <path d="M83.4144 1.79999H95.5103V57H83.4144V1.79999Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+                <path d="M112.803 1.79999H123.747L143.523 20.424V34.92L124.899 17.352V57H112.803V1.79999ZM178.947 1.79999H168.099L148.227 20.424V34.92L166.851 17.352V57H178.947V1.79999Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+                <path d="M196.196 8.42399L207.428 1.79999H227.3V12.648H208.292V45.768H226.916V57H207.428L196.196 50.472V8.42399ZM262.34 8.42399L251.492 1.79999H231.62V12.648H250.244V45.768H231.62V57H251.492L262.34 50.472V8.42399Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+                <path d="M279.584 1.79999H290.528L310.304 20.424V34.92L291.68 16.968V57H279.584V1.79999ZM333.632 41.448V1.79999H345.728V57H334.4L314.624 37.992V23.976L333.632 41.448Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+                <path d="M364.897 1.79999H395.617V12.648H376.993V45.768H395.617V57H364.897V1.79999ZM431.041 8.42399L420.193 1.79999H400.321V12.648H418.945V45.768H400.321V57H420.193L431.041 50.472V8.42399Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+                <path d="M536.54 12.648H508.892V57H495.644V12.648H470.396V1.79999H536.54V12.648Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+                <path d="M549.022 1.79999H579.742V13.128H561.118V23.976H579.742V35.208H561.118V57H549.022V1.79999ZM615.166 57V34.152L606.142 29.448L615.166 25.128V8.42399L603.838 1.79999H584.062V13.128H603.07V23.976H584.062V35.208H603.07V57H615.166Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+                <path d="M631.522 1.79999H662.242V13.128H643.618V23.976H662.242V34.92H643.618V46.152H661.858V57H631.522V1.79999ZM666.946 46.152V57H697.666V46.152H666.946ZM697.666 13.128V1.79999H666.562V13.128H697.666ZM682.114 34.92V23.976H666.562V34.92H682.114Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+                <path d="M710.178 1.79999H740.898V13.128H722.274V23.976H740.898V34.92H722.274V46.152H740.514V57H710.178V1.79999ZM745.602 46.152V57H776.322V46.152H745.602ZM776.322 13.128V1.79999H745.218V13.128H776.322ZM760.77 34.92V23.976H745.218V34.92H760.77Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+                <path d="M817.616 1.79999H828.56L848.336 20.424V34.92L829.712 17.352V57H817.616V1.79999ZM883.76 1.79999H872.912L853.04 20.424V34.92L871.664 17.352V57H883.76V1.79999Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+                <path d="M901.008 1.79999H913.104V45.768H931.728V57H911.952L901.008 50.472V1.79999ZM967.152 1.79999H955.056V45.768H936.432V57H956.304L967.152 50.472V1.79999Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+                <path d="M981.517 8.42399L992.461 1.79999H1012.24V13.128H993.229V23.976H1012.24V35.208H992.461L981.517 28.68V8.42399ZM1047.66 30.6L1036.33 23.976H1016.56V35.208H1035.56V46.152H1016.94V57H1036.33L1047.66 50.472V30.6ZM993.613 39.528V46.152H1012.24V57H992.749L981.517 50.472V39.528H993.613ZM1047.66 19.656V8.42399L1036.33 1.79999H1016.56V13.128H1035.56V19.656H1047.66Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+                <path d="M1062.07 1.79999H1074.17V57H1062.07V1.79999Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+                <path d="M1089.54 8.42399L1100.77 1.79999H1120.64V12.648H1102.02V45.768H1120.26V57H1100.77L1089.54 50.472V8.42399ZM1143.59 39.144V45.768H1125.35V57H1144.84L1156.07 50.472V39.144H1143.59ZM1156.07 19.368V8.42399L1144.84 1.79999H1124.96V12.648H1143.59V19.368H1156.07Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+                <path d="M318.584 97.8H349.304V109.128H330.68V119.976H349.304V131.208H330.68V153H318.584V97.8ZM384.728 109.128V97.8H354.008V109.128H384.728ZM369.56 131.208V119.976H354.008V131.208H369.56Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+                <path d="M393.352 104.424L404.296 97.8H424.072V108.648H405.448V119.976H424.072V130.92H405.448V153H393.352V104.424ZM459.496 104.424L448.168 97.8H428.392V108.648H447.4V119.976H428.392V130.92H447.4V153H459.496V104.424Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+                <path d="M468.914 104.424L480.146 97.8H500.018V108.648H481.394V141.768H499.634V153H480.146L468.914 146.472V104.424ZM522.962 135.144V141.768H504.722V153H524.21L535.442 146.472V135.144H522.962ZM535.442 115.368V104.424L524.21 97.8H504.338V108.648H522.962V115.368H535.442Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+                <path d="M612.102 108.648H584.454V153H571.206V108.648H545.958V97.8H612.102V108.648Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+                <path d="M621.539 104.424L632.771 97.8H652.643V108.648H633.635V141.768H652.259V153H632.771L621.539 146.472V104.424ZM687.683 104.424L676.835 97.8H656.963V108.648H675.587V141.768H656.963V153H676.835L687.683 146.472V104.424Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+                <path d="M704.928 97.8H735.648V109.128H717.024V119.976H735.648V131.208H717.024V153H704.928V97.8ZM771.072 153V130.152L762.048 125.448L771.072 121.128V104.424L759.744 97.8H739.968V109.128H758.976V119.976H739.968V131.208H758.976V153H771.072Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+                <path d="M816.485 127.752V153H805.637V127.752L777.989 101.352L788.933 97.8L811.013 118.824L833.285 97.8L844.133 101.352L816.485 127.752Z" stroke="white" stroke-width="2" mask="url(#path-1-outside-1)" />
+            </svg>
+
+            <div class="arrow"></div>
+        </div>
+        <div class="bg"></div>
+        <div class="inner-header flex">
+        </div>
+        <div>
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                </g>
+            </svg>
+        </div>
+    </section>
+
+    <section id="section2">
+        <div class="container text-center">
+            <div class="container text-center">
+                <div class="col-sm-12">
+                    <div class="aboutcont fon4">Dimond Tree Music factory is one of the leading digital media companies. As an online video network, music distributor / publisher and digital marketing agency, we work with brands and content creators across genres including Film Productions houses, Music talent and more.</div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="partners">
+        <div class="animation-area">
+            <ul class="box-area">
+                <li><i class="fas fa-music"></i></li>
+                <li><i class="fas fa-music"></i></li>
+                <li><i class="fas fa-music"></i></li>
+                <li><i class="fas fa-music"></i></li>
+                <li><i class="fas fa-music"></i></li>
+                <li><i class="fas fa-music"></i></li>
+                <li><i class="fas fa-music"></i></li>
+                <li><i class="fas fa-music"></i></li>
+                <li><i class="fas fa-music"></i></li>
+            </ul>
+        </div>
+
+        <div class=" mx-auto d-block partnerscontainer">
+            <div class="row">
+
+                <div class="col-sm-6">
+                    <div class="col-sm-8 logos">
+                        <div class="row">
+
+                            <div class="col-sm-6 logoset1">
+                                <img src="style_sheets/pictures/itunes.png" class="mlogo">
+
+                            </div>
+                            <div class="col-sm-6 logoset1">
+                                <img src="style_sheets/pictures/spotify.png" class="mlogo">
+
+                            </div>
+                            <div class="col-sm-6 logoset2">
+                                <img src="style_sheets/pictures/saavan.png" class="mlogo">
+
+                            </div>
+                            <div class="col-sm-6 logoset2">
+                                <img src="style_sheets/pictures/gaana.png" class="mlogo">
+
+                            </div>
+                            <div class="col-sm-6 logoset3">
+                                <img src="style_sheets/pictures/wynk.png" class="mlogo">
+
+                            </div>
+                            <div class="col-sm-6 logoset3 smup">
+                                <img src="style_sheets/pictures/mx.png" class="mlogo">
+
+                            </div>
+                        </div>
+                        <hr class="hr d-block d-sm-none" style="background-color: #333">
+
+                    </div>
+                </div>
+                <div class="col-sm-6">
+
+
+                    <div class="col-sm-5 padhead mx-auto">
+                        <img src="style_sheets/pictures/logo.png" width="100%">
+                    </div>
+                    <h3 class="padhead  fon4">MUSIC</h3>
+                    <p class="fon4 musicpara">One point stop for all needs of an artist, composer, writer or a producer. Digital distribution, music royalties and its marketing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section3">
+        <div class="contblock">
+            <div class="row">
+                <div class="col-lg-5 d-flex align-items-center">
+                    <div>
+                        <h2>A Blog that goes beyond representing a virtual cabinet.</h2>
+                        <p>A CMS based blog management system to manage and view the latest news in a centralized location. The blog keeps the records up-to-date. So any alterations in the data will be synchronized and stored for every user's usage.</p>
+                    </div>
+                </div>
+                <div class="col-lg-7 d-flex align-items-center">
+                    <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+                        <source src="style_sheets/pictures/video.mp4" type="video/webm">
+                    </video>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <a href="blog/index.html" target="_blank"><button class="btn blogbtn mx-auto d-block">Visit Blog</button></a>
+            </div>
+        </div>
+    </section>
+    <section id="dm">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 rcbox">
+                    <div class="col-sm-12 mx-auto rcpic">
+                        <img src="style_sheets/pictures/rc.png" width="100%;">
+                    </div>
+
+                    <h3 class="text-center rctxt">Rights & Claims</h3>
+                    <p class="text-center">We help asset owners claim rights and authority to your original content.</p>
+
+
+                </div>
+
+                <div class="col-sm-9 dmbox dmpic whitecol">
+
+
+                    <div class="pulse mx-auto">
+                        <span style="--i:1;"></span>
+                        <span style="--i:2;"></span>
+                        <span style="--i:3;"></span>
+                        <span style="--i:4;"></span>
+                        <span style="--i:5;"></span>
+                        <div class="rocket">
+                            <img src="style_sheets/pictures/rocket.png" width="50%;">
+                        </div>
+                    </div>
+
+                    <h3 class="text-center dmtxt">Digital Marketing</h3>
+                    <p class="text-center mx-auto col-sm-12">Social Media management, Online advertising, and reputation management for leading brands and talent - from strategy to execution.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section5  d-none d-xl-block">
+        <div class="container containerform">
+            <div class="contactinfo">
+                <div>
+                    <h2 class="coninfo">Get in touch</h2>
+                    <ul class="info">
+                        <li>
+                            <span><img src="style_sheets/pictures/location.png"></span>
+                            <span>43/70, 3rd & BDA Park 3rd Cross Road, opp. 12th Block, behind Nammura Thindi, NGEF Layout, Naagarabhaavi, Bengaluru, Karnataka 560072</span>
+                        </li>
+                        <li>
+                            <span><img src="style_sheets/pictures/mail.png"></span>
+                            <span>diamondtmf@gmail.com</span>
+                        </li>
+                        <li>
+                            <span><img src="style_sheets/pictures/call.png"></span>
+                            <span>XYZ</span>
+                        </li>
+                    </ul>
+                    <ul class="sci">
+                        <li class="mapmailloc"><a href="https://www.facebook.com/Diamondtreemusicsfactory/" target="_blank"><img src="style_sheets/pictures/fb.png" width="50%"></a></li>
+                        <li class="mapmailloc"><a href="#"><img src="style_sheets/pictures/mailsmall.png" width="50%"></a></li>
+                        <li class="mapmailloc"><a href="#"><img src="style_sheets/pictures/ins.png" width="50%"></a></li>
+                        <li class="mapmailloc"><a href="https://www.youtube.com/channel/UC2AwxVROHK_uAMMSFQ8IOfg" target="_blank"><img src="style_sheets/pictures/twit.png" width="50%"></a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="contactForm">
+                <h2>Send a Message</h2>
+                <div class="formBox">
+                    <div class="inputBox w50">
+                        <input type="text" name="" required>
+                        <span>First Name</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="text" name="" required>
+                        <span>Last Name</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="text" name="" required>
+                        <span>Email Address</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="text" name="" required>
+                        <span>Mobile Number</span>
+                    </div>
+                    <div class="inputBox w100">
+                        <textarea name="" required></textarea>
+                        <span>Write your message here...</span>
+                    </div>
+                    <div class="inputBox w100">
+                        <input type="submit" value="send">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="d-xl-none" id="section7">
+        <div class="condet">
+            <h3 class="whitecol padhead text-center">Get in touch</h3>
+            <div class="container">
+                <div class="iconinvert ">
+                    <img src="style_sheets/pictures/location.png" width="15%">
+
+                </div>
+                <div class="conpad  whitecol text-center">
+                    2912 eesalacupnamde Road
+                    pakisatn ,90017
+                </div>
+                <div class="iconinvert ">
+                    <img src="style_sheets/pictures/mail.png" width="15%">
+                </div>
+
+
+                <div class="conpad whitecol text-center ">lorem@ipsum.com
+                </div>
+                <div class="iconinvert ">
+                    <img src="style_sheets/pictures/call.png" width="15%">
+
+                </div>
+                <div class="conpad whitecol text-center ">310-386-1623
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <section class="d-xl-none" id="section8">
+        <div class="coninput">
+            <div class="container">
+                <div class="row">
+                    <div class="fon4 mx-auto sam">
+                        <div class="text-center">Send a Message..</div>
+                    </div>
+
+                    <div class="contactformsmall">
+
+
+                        <div class="formBoxsm">
+                            <div class="inputBoxsm w50">
+                                <input type="text" name="" required>
+                                <span>First Name</span>
+                            </div>
+                            <div class="inputBoxsm w50">
+                                <input type="text" name="" required>
+                                <span>Last Name</span>
+                            </div>
+                            <div class="inputBoxsm w50">
+                                <input type="text" name="" required>
+                                <span>Email Address</span>
+                            </div>
+                            <div class="inputBoxsm w50">
+                                <input type="text" name="" required>
+                                <span>Mobile Number</span>
+                            </div>
+                            <div class="inputBoxsm w100">
+                                <input name="" required>
+                                <span>Write your message here...</span>
+                            </div>
+                            <div class=" col-sm-3 mx-auto inputBoxsm w100">
+                                <input type="submit" value="send">
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer class="text-white" style="background-color: #0f3959;">
+        <div class="container">
+            <div class="footer-content pt-5 ">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="style_sheets/pictures/logo.png" class="img-fluid" alt="logo"></a>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="#"><i class="fa fa-facebook facebook-bg"></i></a>
+                                <a href="#"><i class="fa fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fa fa-instagram insta-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mt-2 mb-3">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div id="ul1">Home</div>
+                                </li>
+                                <li>
+                                    <div id="ul2">About</div>
+                                </li>
+                                <li>
+                                    <div id="ul3">Partners</a>
+                                </li>
+                                <li>
+                                    <div id="ul4">Blog</div>
+                                </li>
+                                <li>
+                                    <div id="ul5">Contact</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="col-sm-12 map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1944.114449363728!2d77.51543475804122!3d12.95719971163214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3e7df9052637%3A0x885229584466763a!2s3rd%20Cross%20Rd%2C%204%20Block%2C%20Teachers%20Colony%2C%20Naagarabhaavi%2C%20Bengaluru%2C%20Karnataka%20560072!5e0!3m2!1sen!2sin!4v1619604342678!5m2!1sen!2sin" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <button id="tohome" class="btn upar"><i class="fas fa-sort-up"></i></button>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="copyright-text">
+                    <p>Copyright &copy; 2021, All Right Reserved <br><a href="">Diamond Tree</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                var partnersec = $(window).scrollTop();
+                if (partnersec > 790 && partnersec < 1125) {
+                    $('#partners').css("background-color", "#253f54");
+                    $('#partners').css("transition", ".5s");
+                } else {
+                    $('#partners').css("background-color", "#eaeaea");
+                    $('#partners').css("transition", ".5s");
+                }
+            });
+        });
+
+    </script>
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                var scroll = $(window).scrollTop();
+                if (scroll > 2810) {
+                    $('.section5').css("background-color", "#253f54");
+                    $('.section5').css("transition", ".5s");
+                } else {
+                    $('.section5').css("background-color", "#eaeaea");
+                    $('.section5').css("transition", ".5s");
+                }
+            });
+        });
+
+    </script>
+    <script>
+        $(document).ready(function() {
+
+            $('#link1').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#section1').offset().top
+                }, 850);
+            });
+
+            $('#link2').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#section2').offset().top
+                }, 850);
+            });
+
+            $('#link3').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#partners').offset().top
+                }, 850);
+            });
+
+            $('#link4').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#section3').offset().top
+                }, 850);
+            });
+
+            $('#link5').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('.section5').offset().top
+                }, 850);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(document).ready(function() {
+
+            $('#ul1').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#section1').offset().top
+                }, 850);
+            });
+
+            $('#ul2').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#section2').offset().top
+                }, 850);
+            });
+
+            $('#ul3').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#partners').offset().top
+                }, 850);
+            });
+
+            $('#ul4').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#section3').offset().top
+                }, 850);
+            });
+
+            $('#ul5').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('.section5').offset().top
+                }, 850);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(document).ready(function() {
+
+            $('#link6').click(function() {
+                $('html,body').animate({
+                    scrollTop: $('#section8').offset().top
+                }, 850);
+            });
+
+
+        });
+
+    </script>
+    <script>
+        $('#tohome').click(function() {
+            $('html,body').animate({
+                scrollTop: $('#section1').offset().top
+            }, 1000);
+        });
+
+    </script>
+    <script>
+        paceOptions = {
+            ajax: true,
+            document: true,
+            eventLag: false
+        };
+        Pace.on('done', function() {
+            $('#preloader').delay(4000).animate({
+                top: '-110%'
+            }, 2000, $.bez([0.19, 1, 0.22, 1]));
+        });
+
+    </script>
+    <!--  script's  -->
+    <script type="text/javascript" src="scripts/main.js"></script>
+</body>
+
+</html>
